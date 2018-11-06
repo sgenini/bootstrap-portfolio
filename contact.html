@@ -1,0 +1,109 @@
+<!-- Bootstrap-Powered HTML -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Bootstrap Portfolio
+  </title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Rock+Salt">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3 border-bottom">
+        <div class="container">
+            <a class="navbar-brand textUppercase" href="index.html" id="nameLogo"><h1>Stéphane Genini</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link m-2 menu-item nav-active">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <!-- Container Div -->
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="card col-lg-8 pt-2 mb-3">
+                <h2>Contact</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group">
+                                <label for="formNameInput">Name</label>
+                                <input type="text" class="form-control" id="formNameInput" placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label for="formEmailInput">Email address</label>
+                                <input type="email" class="form-control" id="formEmailInput" placeholder="example@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="formMessageInput">Message</label>
+                                <textarea class="form-control" id="formMessageInput"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-contact">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-3 pt-2 mb-auto ml-auto">
+                <h4>Connect With Me</h4>
+                <hr>
+                <div class="connect-wrapper">
+                    <!-- <div class="row"> -->
+                        <a href="https://github.com/sgenini" target="_blank">
+                            <img src="assets/images/github.png" class="icon">
+                        </a>
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+                        <a href="https://www.linkedin.com/in/stephane-genini/" target="_blank">
+                        <div class="icon" id="linkedin"></div>
+                        </a>
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+                        <a href="https://stackoverflow.com/users/10515511/stephane-genini" target="_blank">
+                        <div class="icon" id="stackoverflow"></div>
+                        </a>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="invisible"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <!-- <span class="text-muted">  -->
+                <small>&copy; Stéphane Genini</small>
+            <!-- </span> -->
+        </div>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
